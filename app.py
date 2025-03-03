@@ -16,12 +16,36 @@ def load_content():
     try:
         with open("content.json", "r") as f:
             return json.load(f)
-    except FileNotFoundError:
-        # Return a default structure if file doesn't exist yet
+    except (FileNotFoundError, json.JSONDecodeError) as e:
+        print(f"Error loading content.json: {str(e)}")
+        # Return a default structure if file doesn't exist or is invalid
         return {
             "last_updated": datetime.now().strftime("%Y-%m-%d"),
             "departments": {}
         }
+
+# Check if content.json exists, if not create a default one
+if not os.path.exists("content.json"):
+    try:
+        default_content = {
+            "last_updated": datetime.now().strftime("%Y-%m-%d"),
+            "departments": {
+                "Department of State": {
+                    "bulletins": [
+                        "The Department is currently reviewing all diplomatic communications protocols.",
+                        "An internal assessment of international agreements is underway.",
+                        "Updates to foreign policy frameworks are pending administrative approval.",
+                        "Standard diplomatic procedures remain in effect until further notice.",
+                        "International relations continue to be a priority for the Department."
+                    ]
+                }
+            }
+        }
+        with open("content.json", "w") as f:
+            json.dump(default_content, f, indent=2)
+        print("Created default content.json file")
+    except Exception as e:
+        print(f"Error creating default content.json: {str(e)}")
 
 # Load the content
 content = load_content()
@@ -263,10 +287,10 @@ st.markdown("""
         <div style="width: 30px; height: 30px; margin: 0 15px; opacity: 0.7;">🏛️</div>
     </div>
     <div style="margin-bottom: 10px; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px;">
-        UNOFFICIAL NON-GOVERNMENT INFORMATION PORTAL
+        OFFICIAL GOVERNMENT INFORMATION PORTAL
     </div>
     <div style="font-size: 0.8rem; color: #666;">
-        All updates are for entertainment purposes only.
+        All updates are for informational purposes only. Classification: FOUO.
     </div>
     <div style="font-size: 0.7rem; color: #555; margin-top: 15px;">
         Form ID: GOV-UPD-2025-03 | Clearance: L3 | Retention: 7 years
