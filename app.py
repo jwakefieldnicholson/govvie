@@ -189,7 +189,7 @@ st.markdown("""
 st.markdown(f"""
 <div class="update-date">
     <span>Last Updated: {content["last_updated"]}</span>
-    <span class="badge">CLASSIFIED</span>
+    <span class="badge">NON-CLASSIFIED</span>
 </div>
 """, unsafe_allow_html=True)
 
@@ -272,7 +272,7 @@ else:
     st.markdown("""
     <div style="text-align: center; padding: 40px; background-color: #1E1E1E; border-radius: 8px; margin-top: 20px;">
         <div style="font-size: 40px; margin-bottom: 10px;">🔒</div>
-        <div style="font-weight: bold; color: #4CAF50; margin-bottom: 10px;">CLASSIFIED</div>
+        <div style="font-weight: bold; color: #4CAF50; margin-bottom: 10px;">NON-CLASSIFIED</div>
         <div style="color: #AAAAAA;">Updates for this department are currently restricted.</div>
         <div style="color: #888888; font-size: 0.9rem; margin-top: 15px;">Please check back later or contact your supervisor for clearance.</div>
     </div>
