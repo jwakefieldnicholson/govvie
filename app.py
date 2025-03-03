@@ -257,7 +257,7 @@ if selected_dept in content.get("departments", {}):
     st.markdown("""
     <div style="margin-bottom: 15px; border-bottom: 1px solid #333; padding-bottom: 10px;">
         <span style="color: #4CAF50; font-weight: bold;">CLASSIFICATION:</span>
-        <span style="color: #FFD700; margin-left: 10px;">FOR OFFICIAL USE ONLY</span>
+        <span style="color: #FFD700; margin-left: 10px;">FOR UNOFFICIAL USE ONLY</span>
     </div>
     """, unsafe_allow_html=True)
     
@@ -287,13 +287,13 @@ st.markdown("""
         <div style="width: 30px; height: 30px; margin: 0 15px; opacity: 0.7;">🏛️</div>
     </div>
     <div style="margin-bottom: 10px; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px;">
-        OFFICIAL GOVERNMENT INFORMATION PORTAL
+        UNOFFICIAL NON-GOVERNMENT INFORMATION PORTAL
     </div>
     <div style="font-size: 0.8rem; color: #666;">
-        All updates are for informational purposes only. Classification: FOUO.
+        All updates are for entertainment purposes only. Classification: FUUO.
     </div>
     <div style="font-size: 0.7rem; color: #555; margin-top: 15px;">
-        Form ID: GOV-UPD-2025-03 | Clearance: L3 | Retention: 7 years
+        Form ID: NGOV-UPD-2025-03 | Clearance: L3 | Retention: 7 years
     </div>
 </div>
 """, unsafe_allow_html=True)
