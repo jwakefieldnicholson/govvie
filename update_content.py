@@ -114,11 +114,29 @@ Just provide the 5 bullet points with no introduction or other text. Each bullet
 
     # Make the API request
     try:
-        response = requests.post(API_URL, headers=headers, json=payload)
-        response.raise_for_status()  # Raise an exception for HTTP errors
+        print(f"Calling Anthropic API for {department}...")
+        response = requests.post(API_URL, headers=headers, json=payload, timeout=30)
         
+        # Check for HTTP errors
+        if response.status_code != 200:
+            print(f"API returned status code {response.status_code}: {response.text}")
+            raise Exception(f"API error: {response.status_code}")
+            
+        # Parse the JSON response
+        try:
+            json_response = response.json()
+        except json.JSONDecodeError as e:
+            print(f"Failed to parse API response as JSON: {e}")
+            print(f"Response text: {response.text[:500]}...")  # Print first 500 chars
+            raise
+            
         # Extract the bulletins from the response
-        bulletins_text = response.json()["content"][0]["text"]
+        if "content" not in json_response or not json_response["content"]:
+            print(f"Unexpected API response format: {json_response}")
+            raise Exception("API response missing 'content' field")
+            
+        bulletins_text = json_response["content"][0]["text"]
+        print(f"Successfully received response from API for {department}")
         
         # Process the bulletins (remove hyphens, strip whitespace)
         bulletins = [item.strip()[2:].strip() if item.strip().startswith('-') else item.strip() 
@@ -147,8 +165,12 @@ def update_content():
     try:
         with open("content.json", "r") as f:
             content = json.load(f)
-    except (FileNotFoundError, json.JSONDecodeError):
-        # Create a new content structure if the file doesn't exist or is invalid
+            print("Successfully loaded existing content.json")
+    except FileNotFoundError:
+        print("content.json not found, creating new file")
+        content = {"departments": {}, "last_updated": ""}
+    except json.JSONDecodeError as e:
+        print(f"Error decoding content.json: {e}, creating new file")
         content = {"departments": {}, "last_updated": ""}
 
     # Update the last updated timestamp
