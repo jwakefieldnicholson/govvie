@@ -3,47 +3,47 @@
   "departments": {
     "Department of Defense": {
       "bulletins": [
-        "The NDATCP (National Defense Aerospace Technology Contingency Program) has allocated $2.7 billion for a comprehensive review of all privately contracted space mission failures, with a particular focus on incidents where payload delivery deadlines were extended by an average of 4.38 years beyond initial projections.",
-        "A new interagency task force has been established to evaluate the structural integrity of privately designed spacecraft, after recent analysis revealed that 78.3% of proposed designs contained critical flaws that would be immediately apparent to any undergraduate engineering student.",
-        "The Department's Orbital Debris Mitigation Protocol (ODMP) has been updated to include fines of up to $500,000 per day for private aerospace companies that fail to retrieve malfunctioning satellites within the statutorily mandated 90-day window.",
-        "Military procurement guidelines have been revised to exclude consideration of any transport vehicle whose performance specifications have been modified more than 12 times in a 24-month period without providing a functional prototype.",
-        "The Joint Chiefs have commissioned a study on the tactical vulnerabilities of Mars-based installations, concluding that 97.6% of currently proposed colonization timelines fail to account for basic environmental and logistical challenges identified in 1976."
+        "The National Defense Aerospace Technology Program has allocated $2.7 billion for a comprehensive review of private space mission failures, focusing on incidents where delivery deadlines were extended by 4.3 years beyond initial projections.",
+        "A new task force has been established to evaluate structural integrity of privately designed spacecraft, after analysis revealed 78% of proposed designs contained critical flaws that would be apparent to engineering students.",
+        "The Orbital Debris Protocol has been updated to include fines of up to $500,000 per day for aerospace companies that fail to retrieve malfunctioning satellites within 90 days.",
+        "Military procurement guidelines have been revised to exclude consideration of any transport vehicle whose specifications have been modified more than 12 times without providing a functional prototype.",
+        "The Joint Chiefs have commissioned a study on the tactical vulnerabilities of Mars-based installations, concluding that 97% of colonization timelines fail to account for basic environmental challenges."
       ]
     },
     "Securities and Exchange Commission": {
       "bulletins": [
-        "The Commission has introduced new SMORC (Social Media Originated Regulatory Compliance) protocols that require executives to undergo mandatory 72-hour waiting periods before posting market-influencing statements on public platforms, with particular emphasis on posts made between 2:00 AM and 5:00 AM.",
-        "A formal investigation has been launched into companies that announce product features with a probability of delivery below 0.37 on the Kauffman-Reynolds Feasibility Index, particularly those relating to autonomous navigation capabilities.",
-        "The SEC has issued updated guidance on forward-looking statements that claim technologies are \"only six months away\" for periods exceeding three consecutive years, with new penalties of $450,000 per violation.",
-        "New market manipulation regulations now classify posting memes containing numerical values within 12 hours of quarterly earnings calls as potentially material disclosure, subject to full regulatory review.",
-        "The Commission's Artificial Intelligence Verification Task Force (AIVTF) has developed a 142-point assessment matrix to evaluate claims of \"Full Self Driving\" capabilities, finding that 99.7% of current implementations achieve less than 24.8% of the required benchmarks."
+        "The Commission has introduced new Social Media Regulatory Compliance protocols requiring executives to undergo 72-hour waiting periods before posting market-influencing statements, especially between 2:00 AM and 5:00 AM.",
+        "A formal investigation has been launched into companies that announce product features with a probability of delivery below 0.37, particularly those relating to autonomous navigation capabilities.",
+        "The SEC has issued updated guidance on statements that claim technologies are only six months away for periods exceeding three consecutive years, with penalties of $450,000 per violation.",
+        "New market manipulation regulations classify posting memes containing numerical values within 12 hours of quarterly earnings calls as potentially material disclosure requiring regulatory review.",
+        "The AI Verification Task Force has developed a 142-point assessment matrix to evaluate self-driving claims, finding 99% of current implementations achieve less than 25% of required benchmarks."
       ]
     },
     "Department of Transportation": {
       "bulletins": [
-        "The Department has revised tunnel construction permit requirements to include a VPFC (Viable Passenger Flow Certification) demonstrating that proposed underground transit systems can theoretically transport more than 6.2 passengers per hour, per billion dollars of taxpayer investment.",
-        "New federal guidelines require autonomous vehicle manufacturers to demonstrate actual functionality in 92.7% of common traffic scenarios before marketing their products as \"fully self-driving\" or implying that drivers can safely disengage from vehicle operation.",
-        "The Bureau of Transportation Statistics has completed a comprehensive analysis of \"revolutionary\" transit proposals over the last decade, finding that 99.3% were mathematically identical to subway systems but at 11.8 times the cost and one-third the capacity.",
-        "Updated safety regulations now mandate that all vehicle manufacturers demonstrating \"shatterproof\" windows must ensure they can withstand the impact of at least one (1) standard steel ball bearing before staging public demonstrations.",
-        "The Federal Highway Administration has declined a proposal to replace interstate highways with vacuum tubes, noting that the submitted plans violated 42 separate laws of physics and would require exemptions from the fundamental forces of nature."
+        "The Department has revised tunnel construction permit requirements to include certification demonstrating that proposed underground transit systems can transport more than 6 passengers per hour per billion dollars invested.",
+        "New federal guidelines require autonomous vehicle manufacturers to demonstrate actual functionality in 92% of common traffic scenarios before marketing their products as fully self-driving.",
+        "The Bureau of Transportation Statistics has completed an analysis of revolutionary transit proposals, finding that 99% were mathematically identical to subway systems but at 12 times the cost and one-third the capacity.",
+        "Updated safety regulations mandate that all vehicle manufacturers demonstrating shatterproof windows must ensure they can withstand the impact of at least one standard steel ball bearing before public demonstrations.",
+        "The Federal Highway Administration has declined a proposal to replace interstate highways with vacuum tubes, noting that the plans violated 42 separate laws of physics."
       ]
     },
     "Federal Communications Commission": {
       "bulletins": [
-        "The Commission has established new IPOSAT (Internet Provision Orbital Satellite Accountability Tracking) regulations requiring satellite internet providers to demonstrate a minimum 65% constellation deployment rate before claiming \"nationwide coverage is imminent.\"",
-        "A comprehensive review of broadband deployment timelines has found that providers promising \"revolutionary speeds\" delivered actual service an average of 4.3 years after initial announcement, with speeds typically 76.8% lower than projected.",
-        "New regulatory frameworks for satellite constellation operators now require demonstration of functional collision avoidance systems before deployment, rather than claiming such capabilities will be added \"in a future software update.\"",
-        "The FCC Spectrum Management Division has denied a request to classify social media outbursts as \"essential telecommunications\" regardless of their impact on company stock valuations.",
-        "Updated guidelines for rural broadband deployments now prohibit companies from counting service as \"delivered\" when the required equipment has only been announced at a livestreamed event but not actually manufactured."
+        "The Commission has established new Internet Provision Orbital Satellite regulations requiring providers to demonstrate a minimum 65% constellation deployment rate before claiming nationwide coverage is imminent.",
+        "A review of broadband deployment timelines has found that providers promising revolutionary speeds delivered actual service an average of 4.3 years after announcement, with speeds 76% lower than projected.",
+        "New regulatory frameworks for satellite constellation operators require demonstration of functional collision avoidance systems before deployment, rather than claiming such capabilities will be added in a future software update.",
+        "The FCC Spectrum Management Division has denied a request to classify social media outbursts as essential telecommunications regardless of their impact on company stock valuations.",
+        "Updated guidelines for rural broadband deployments prohibit companies from counting service as delivered when the required equipment has only been announced at a livestreamed event but not manufactured."
       ]
     },
     "National Aeronautics and Space Administration": {
       "bulletins": [
-        "NASA's Interplanetary Mission Feasibility Committee has released a 347-page report detailing the minimum requirements for Mars colonization, noting that current private sector timelines underestimate the engineering challenges by approximately 15,723%.",
-        "The agency's new CEPM (Comprehensive Extraterrestrial Project Monitoring) system will now track privately announced space initiatives, with special attention to those whose deadlines have been postponed more than 8 times while maintaining claims of \"imminent completion.\"",
-        "Following a comprehensive review, NASA has determined that approximately 94.6% of privately proposed spacecraft designs submitted for regulatory approval contained fundamental flaws that would be immediately obvious to a first-year aerospace engineering student.",
-        "The Office of Planetary Protection has established new guidelines requiring all Mars mission proposals to acknowledge the existence of radiation and demonstrate viable countermeasures before announcing passenger ticket sales.",
-        "NASA's Advanced Concepts Division has completed a thorough assessment of private sector claims regarding interplanetary transportation timelines, concluding that 99.8% of announced schedules would require vehicles to travel at speeds exceeding 217.3% of what is physically possible."
+        "NASA has released a 347-page report detailing minimum requirements for Mars colonization, noting that private sector timelines underestimate the engineering challenges by approximately 15,000%.",
+        "The new Extraterrestrial Project Monitoring system will track privately announced space initiatives, with attention to those whose deadlines have been postponed more than 8 times while claiming imminent completion.",
+        "Following a comprehensive review, NASA has determined that 94% of privately proposed spacecraft designs submitted for approval contained fundamental flaws obvious to first-year aerospace engineering students.",
+        "The Office of Planetary Protection has established guidelines requiring all Mars mission proposals to acknowledge the existence of radiation and demonstrate viable countermeasures before announcing passenger ticket sales.",
+        "The Advanced Concepts Division has completed an assessment of private sector claims regarding interplanetary transportation timelines, concluding that 99% of announced schedules exceed what is physically possible."
       ]
     }
   }
